@@ -7,6 +7,7 @@ const toggleSeats = (selector, enable) => {
 //선택자를 사용해 페이지에서 원하는 요소를 선택, 사용할수 있음.
 //좌석을 활성화(true)할지, 비활성화(false)할지 결정
 //비활성화되면 disabled 추가
+//사용자가 선택한 인원수에 맞게 좌석이 선택되면 선택된 좌석들은 clicked가 생기고, 그 외 나머지는 disabled가 됨
 
 export const numOfAdult = () => {
   let toggleList = document.querySelectorAll(".toggle");
